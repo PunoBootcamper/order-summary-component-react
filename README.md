@@ -1,6 +1,6 @@
 # Make It Real - Order Summary Component with React
 
-This is a solution to the Order Summary Component project with React, built during the Make It Real course.
+This is a solution to the Order Summary Component project with React, built during the Make It Real course. I based it on the following [repository](https://github.com/PunoBootcamper/order-summary-component.git).
 
 ## Table of contents
 
