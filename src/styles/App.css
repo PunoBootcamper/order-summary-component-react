@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --p-pale-blue: hsl(225, 100%, 94%);
+  --p-bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--p-pale-blue);
+  min-height: 100vh;
+  background-image: url(./assets/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__container {
+  max-width: 450px;
+  background-color: #FFF;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.order-summary__hero {
+    width: 100%;
+  }
+  
+  .order-summary__hero-image {
+    width: 100%;
+  }
+  
+  .order-summary__text-content {
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .order-summary__title {
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .order-summary__subtitle {
+    color: var(--desaturated-blue);
+    margin-bottom: 25px;
+  }
+  .order-summary__buttons{
+    width: 100%;
+    align-items: center;
+    display: flex;
+  }
+  
+  .order-summary__plan-box {
+    background-color: var(--very-pale-blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    border-radius: 12px;
+    width: 100%;
+  }
+  
+  .order-summary__plan-box-left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .order-summary__plan-box-icon {
+    margin-right: 20px;
+  }
+  
+  .order-summary__plan-title {
+    font-weight: 900;
+    font-size: 16px;
+    color: var(--dark-blue);
+  }
+  
+  .order-summary__plan-price {
+    font-size: 15px;
+    color: var(--desaturated-blue);
+  }
+  
+  .order-summary__plan-change {
+    font-weight: 900;
+    color: var(--dark-blue);
+    transition: color 0.3s ease;
+  }
+  
+  .order-summary__plan-change:hover {
+    text-decoration: none;
+    color: var(--p-bright-blue);
+  }
+  
+  .order-summary__proceed-btn {
+    text-decoration: none;
+    background-color: var(--p-bright-blue);
+    color: #FFF;
+    padding: 20px 0;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-summary__proceed-btn:hover {
+    background-color: var(--desaturated-blue);
+  }
+  
+  .order-summary__cancel-btn {
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 20px 0;
+    width: 100%;
+    color: var(--desaturated-blue);
+    font-weight: 900;
+    transition: color 0.3s ease;
+  }
+  
+  .order-summary__cancel-btn:hover {
+    color: var(--dark-blue);
+  }
+  

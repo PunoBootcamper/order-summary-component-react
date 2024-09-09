@@ -1,3 +1,4 @@
+import '../styles/Button.css';
 import React from "react";
 
 function Button({ text, className }) {

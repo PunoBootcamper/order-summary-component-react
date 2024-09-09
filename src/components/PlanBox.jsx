@@ -1,3 +1,4 @@
+import '../styles/PlanBox.css';
 import React from "react";
 import PlanDetails from "./PlanDetails";
 import ChangeLink from "./ChangeLink";
