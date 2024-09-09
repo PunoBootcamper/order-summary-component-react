@@ -1,4 +1,4 @@
-import '../styles/Title.css';
+//port '../styles/Title.css';
 import React from "react";
 
 function Title({ text }) {

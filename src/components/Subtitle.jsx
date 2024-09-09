@@ -1,4 +1,4 @@
-import '../styles/Subtitle.css';
+//import '../styles/Subtitle.css';
 import React from "react";
 
 function Subtitle({ text }) {
