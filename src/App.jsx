@@ -1,25 +1,15 @@
-import './App.css'
-//PascalCase para nombres de componentes
-//camelCase para funciones
-//kebab-case para archivos
-//snake_case para variables
-//CONSTANT_CASE para constantes
-
-function Header(){
-  return <header>Header</header>
-}
-function Footer(){
-  return <footer>Footer</footer>
-}
+import React from "react";
+import "./App.css";
+import OrderSummary from "./components/OrderSummary";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <main>Main</main>
-      <Footer />
+    <div className="app">
+      <div className="app__container">
+        <OrderSummary />
+      </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
